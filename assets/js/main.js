@@ -1,41 +1,98 @@
+//Lösung 1-------------------
+
+// const output = document.getElementById('output')
+// let count = 0;
+// output.innerHTML = count
+
+
+// const counterPlusOne = () => {
+//     count++
+//     output.innerHTML = count
+
+// }
+
+// const counterMinusOne = () => {
+//     count--
+//     output.innerHTML = count
+// }
+// const counterPlusTen = () => {
+//     count += 10
+//     output.innerHTML = count
+// }
+// const counterMinusTen = () => {
+//     count -= 10
+//     output.innerHTML = count
+// }
+
+// const counterPlusHund = () => {
+//     count += 100
+//     output.innerHTML = count
+// }
+// const counterMinusHund = () => {
+//     count -= 100
+//     output.innerHTML = count
+// }
+
+// const counterMultpTwo = () => {
+//     count *= 2
+//     output.innerHTML = count
+// }
+// const counterReset = () => {
+//     count = 0
+//     output.innerHTML = count
+// }
+
+//Lösung 2----------------------------
 const output = document.getElementById('output')
 let count = 0;
 output.innerHTML = count
 
+const plusOne = document.getElementById('plusOne')
+const minusOne = document.getElementById('minusOne')
+const plusTen = document.getElementById('plusTen')
+const minusTen = document.getElementById('minusTen')
+const plusHundred = document.getElementById('plusHundred')
+const minusHundred = document.getElementById('minusHundred')
+const multiplyTwo = document.getElementById('multiplyTwo')
+const reset = document.getElementById('reset')
 
-const counterPlusOne = () => {
+plusOne.addEventListener('click', () => {
     count++
     output.innerHTML = count
-
-}
-
-const counterMinusOne = () => {
+})
+minusOne.addEventListener('click', () => {
     count--
     output.innerHTML = count
-}
-const counterPlusTen = () => {
+})
+
+plusTen.addEventListener('click', () => {
     count += 10
     output.innerHTML = count
-}
-const counterMinusTen = () => {
+})
+minusTen.addEventListener('click', () => {
     count -= 10
     output.innerHTML = count
-}
-
-const counterPlusHund = () => {
+})
+plusHundred.addEventListener('click', () => {
     count += 100
     output.innerHTML = count
-}
-const counterMinusHund = () => {
+})
+minusHundred.addEventListener('click', () => {
     count -= 100
     output.innerHTML = count
-}
+})
 
-const counterMultpTwo = () => {
+multiplyTwo.addEventListener('click', () => {
     count *= 2
     output.innerHTML = count
-}
-const counterReset = () => {
+})
+reset.addEventListener('click', () => {
     count = 0
     output.innerHTML = count
-}
+})
+
+//Lösung 3-----------------------
+
+// const output = document.getElementById('output')
+// let count = 0;
+// output.innerHTML = count
