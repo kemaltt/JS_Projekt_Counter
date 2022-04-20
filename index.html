@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Counter</title>
+</head>
+
+<body>
+    <div class="counter">
+        <h1>Counter</h1>
+
+        <p id="output"></p>
+
+
+        <form onsubmit="return false" action="">
+            <div class="input">
+                <input onclick="counterPlusOne()" id="plusOne" type="button" value="+1">
+                <input onclick="counterMinusOne()" id="minusOne" type="button" value="-1">
+            </div>
+            <div>
+                <input onclick="counterPlusTen()" id="plusTen" type="button" value="+10">
+                <input onclick="counterMinusTen()" id="minusTen" type="button" value="-10">
+            </div>
+            <div>
+                <input onclick="counterPlusHund()" id="plusHundred" type="button" value="+100">
+                <input onclick="counterMinusHund()" id="minusHundred" type="button" value="-100">
+            </div>
+            <div>
+                <input onclick="counterReset()" id="reset" type="reset" value="Reset">
+                <input onclick="counterMultpTwo()" id="multiplyTwo" type="button" value="*2">
+
+            </div>
+            <div>
+
+            </div>
+
+
+        </form>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
