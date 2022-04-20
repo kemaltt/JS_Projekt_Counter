@@ -99,6 +99,7 @@ output.innerHTML = count
 
 const inputCounter = document.querySelectorAll('.counter')
 console.log(inputCounter);
+
 for (let i = 0; i < inputCounter.length; i++) {
     const input = inputCounter[i];
     // console.log(input);
@@ -116,15 +117,13 @@ for (let i = 0; i < inputCounter.length; i++) {
             output.innerHTML = count
             console.log(output);
         } else {
-            let newInput = input.value
-            let numInput = parseInt(newInput)
+            let inputString = input.value
+            let inputNumber = parseInt(inputString)
                 // console.log(numInput);
-            count = count + numInput
+            count = count + inputNumber
             output.innerHTML = count
                 // console.log(output);
         }
-
-
 
     })
 
