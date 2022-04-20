@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="counter">
+    <div class="counter-container">
         <h1>Counter</h1>
 
         <p id="output"></p>
@@ -18,20 +18,20 @@
 
         <form onsubmit="return false" action="">
             <div class="input">
-                <input onclick="counterPlusOne()" id="plusOne" type="button" value="+1">
-                <input onclick="counterMinusOne()" id="minusOne" type="button" value="-1">
+                <input onclick="counterPlusOne()" id="plusOne" class="counter" type="button" value="+1">
+                <input onclick="counterMinusOne()" id="minusOne" class="counter" type="button" value="-1">
             </div>
             <div>
-                <input onclick="counterPlusTen()" id="plusTen" type="button" value="+10">
-                <input onclick="counterMinusTen()" id="minusTen" type="button" value="-10">
+                <input onclick="counterPlusTen()" id="plusTen" class="counter" type="button" value="+10">
+                <input onclick="counterMinusTen()" id="minusTen" class="counter" type="button" value="-10">
             </div>
             <div>
-                <input onclick="counterPlusHund()" id="plusHundred" type="button" value="+100">
-                <input onclick="counterMinusHund()" id="minusHundred" type="button" value="-100">
+                <input onclick="counterPlusHund()" id="plusHundred" class="counter" type="button" value="+100">
+                <input onclick="counterMinusHund()" id="minusHundred" class="counter" type="button" value="-100">
             </div>
             <div>
-                <input onclick="counterReset()" id="reset" type="reset" value="Reset">
-                <input onclick="counterMultpTwo()" id="multiplyTwo" type="button" value="*2">
+                <input onclick="counterReset()" id="reset" class="counter" type="reset" value="Reset">
+                <input onclick="counterMultpTwo()" id="multiplyTwo" class="counter" type="button" value="*2">
 
             </div>
             <div>
